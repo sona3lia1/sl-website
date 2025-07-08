@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School Media App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>S Lgram</h1>
+    <button class="port" onclick="openProfile()">My Portfolio</button>
+  </header>
+   <div class="prep">  
+  <main>
+    <section class="create-post">
+      <h2>Create Post</h2>
+      <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+      <input type="file" id="mediaUpload" accept="image/*,video/*" />
+      <input type="text" id="tagsInput" placeholder="Add tags (#school, #fun)" />
+      <button onclick="createPost()">Post</button>
+    </section>
+
+    <section id="feed" class="feed">
+      <h2>📢 Feed</h2>
+      <!-- Posts will be inserted here -->
+    </section>
+  </main>
+  </div>
+
+  <div id="portfolioModal" class="modal hidden">
+    <div class="modal-content">
+      <span onclick="closeProfile()" class="close">&times;</span>
+      <h2>Your Portfolio</h2>
+      <p>Name: Student User</p>
+      <p>Followers: 12 | Following: 8</p>
+      <p>Posts: <span id="portfolioPostsCount">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

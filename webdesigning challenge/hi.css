@@ -1,0 +1,33 @@
+.outerbox{
+    width:500px;
+    height:500px;
+    background:darkgreen;
+}
+.box1{
+    width: 210px;
+    height:200px;
+    background:lightpink;
+    float:left;
+    margin:10px;
+}
+.box2{
+     width: 210px;
+    height:200px;
+    background:rgb(195, 168, 14);
+    float:left;
+    margin:10px;
+}
+.box3{
+     width: 210px;
+    height:200px;
+    background:rgb(149, 246, 4);
+    float:left;
+    margin:10px;
+}
+.box4{
+      width: 210px;
+    height:200px;
+    background:rgb(110, 39, 1);
+    float:left;
+    margin:10px;
+}

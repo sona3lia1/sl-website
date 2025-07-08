@@ -1,0 +1,60 @@
+button{
+    background:green
+}
+
+#para1{
+    color:hotpink;
+}
+#para2{
+    color:indigo;
+}
+
+.safi{
+    color:aqua;
+    background: black
+}
+.safi2{
+    color:cadetblue;
+    background: black
+}
+
+div{
+    width:300px;
+    height:200px;
+    background:black;
+    margin-left: 100px;
+    margin-top:40px;
+    padding-left: 30px;
+    padding-top:30px;
+    border:5px solid;
+    border-color:chartreuse;
+
+    width: 300px;
+    height: 200px;
+    background: black;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 5px solid;
+    border-color: #666;
+}
+.yellow
+{
+    color:yellow;
+}
+.box{
+    margin:100px;
+    padding-left:50px;
+}
+.inner-div{
+    margin:10px;
+    background:lightslategray;
+    width:200px;
+    height:100px;
+
+}
+.ann{
+    accent-color: darkblue;
+}
+

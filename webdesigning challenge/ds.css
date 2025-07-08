@@ -1,0 +1,26 @@
+.header{
+    width:100%;
+    background:orange;
+    height:150px;
+}
+.left-section{
+    width:200px;
+    float:left;
+    height:400px;
+    background:orchid;
+}
+.right-sec{
+     width:1000px;
+    float:left;
+    height:400px;
+    background:rgb(22, 185, 13);
+}
+.footer{
+    height:600px;
+    width:100%;
+    background:indianred
+}
+
+body{
+    margin:0;
+}
